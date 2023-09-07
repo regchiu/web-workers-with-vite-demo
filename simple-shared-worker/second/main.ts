@@ -34,6 +34,12 @@ const squareNumber = document.querySelector<HTMLInputElement>('#number')
 
 const result = document.querySelector<HTMLParagraphElement>('.result')
 
+const form = document.querySelector<HTMLFormElement>('form')
+
+form!.onsubmit = function (event) {
+  event.preventDefault()
+}
+
 if (window.SharedWorker) {
   const myWorker = new SharedWorker(new URL('../worker.ts', import.meta.url), {
     type: 'module'
