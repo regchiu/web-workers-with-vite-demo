@@ -17,16 +17,16 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <h1>Web Workers With Vite Demo</h1>
     <ol>
       <li>
-        <a href="/simple-web-worker/">Simple Web Worker</a>
+        <a href="./simple-web-worker/">Simple Web Worker</a>
       </li>
       <li>
-        <a href="/simple-shared-worker/">Simple Shared Worker</a>
+        <a href="./simple-shared-worker/">Simple Shared Worker</a>
       </li>
       <li>
-        <a href="/fibonacci-worker/">Fibonacci Worker</a>
+        <a href="./fibonacci-worker/">Fibonacci Worker</a>
       </li>
       <li>
-        <a href="/offscreen-canvas-worker/">Offscreen Canvas Worker</a>
+        <a href="./offscreen-canvas-worker/">Offscreen Canvas Worker</a>
       </li>
     </ol>
     <p class="read-the-docs">

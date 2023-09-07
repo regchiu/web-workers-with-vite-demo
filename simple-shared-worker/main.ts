@@ -27,7 +27,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         </div>
       </form>
       <p class="result">Result: 0</p>
-      <a href="/simple-shared-worker/second/" target="_blank">Go to second worker page</a>
+      <a href="./second/" target="_blank">Go to second worker page</a>
     </div>
     <p class="read-the-docs">
       Click on the Vite, TypeScript logos and Mozilla icon to learn more
