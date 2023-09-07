@@ -14,7 +14,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers" target="_blank">
       <img src="${mozillaIcon}" class="logo black" alt="Mozilla icon" />
     </a>
-    <h1>Web Workers With Demo</h1>
+    <h1>Web Workers With Vite Demo</h1>
     <ol>
       <li>
         <a href="/simple-web-worker/">Simple Web Worker</a>
