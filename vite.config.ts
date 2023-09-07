@@ -17,6 +17,6 @@ export default defineConfig(({ mode }) => {
         }
       }
     },
-    base: env.NODE_ENV === 'production' ? '/web-workers-with-demo/' : '/'
+    base: env.NODE_ENV === 'production' ? '/web-workers-with-vite-demo/' : '/'
   }
 })
